@@ -1,0 +1,441 @@
+/* Small (col) devices (landscape phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* banner section css start  */
+
+  .banner-content {
+    padding: 75px 0;
+  }
+
+  .navbar-brand {
+    padding-left: 10px;
+  }
+
+  .banner-content h2 {
+    font-size: 30px;
+    margin-bottom: 23px;
+    text-align: center;
+  }
+
+  .banner-content p {
+    font-family: var(--primary-font);
+    color: #fff;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: regular;
+    text-align: center;
+  }
+
+  .i-phone {
+    display: none;
+  }
+
+  /* banner section css end */
+
+  /* new area css start */
+
+  #new {
+    padding-top: 36px;
+    padding-bottom: 16px;
+  }
+
+  .new-left-content h2 {
+    font-size: 24px;
+    margin-bottom: 34px;
+    text-align: center;
+  }
+
+  .new-left-content p {
+    font-family: var(--primary-font);
+    font-weight: var(--font-regular);
+    color: #959595;
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .new-right-content {
+    margin-top: 20px;
+  }
+
+  .new-right-content p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 14px;
+    text-align: center;
+  }
+
+  /* new area css end */
+
+  /* gallery area css start */
+
+  .gallery-overlay h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .gallery-overlay p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .gallery-overlay a {
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heart {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+  }
+
+  /* gallery area css end */
+
+  /* service section css start  */
+
+  #service {
+    padding: 50px 0;
+  }
+
+  .service-header {
+    font-size: 24px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .service-item {
+    text-align: center;
+  }
+
+  .service-item p {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 5px;
+  }
+
+  /* service section css end */
+
+  /* work area css start */
+
+  .work-content {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .work-content h2 {
+    line-height: 40px;
+    font-size: 26px;
+  }
+
+  .work-content p {
+    line-height: 20px;
+    font-size: 12px;
+    padding-right: 0;
+  }
+
+  .work-content a {
+    line-height: 24px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* work area css end */
+
+  /* board section css start */
+
+  #board {
+    background-color: #82ca9c;
+    padding: 50px 0;
+  }
+
+  .board-header h2 {
+    font-size: 22px;
+    line-height: 22px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .board-item {
+    text-align: center;
+  }
+
+  .board-item p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  /* board section css end */
+
+  /* plan section css start */
+
+  #plan {
+    background-color: #f6f7fa;
+    padding: 0px 0;
+  }
+
+  .plan-left {
+    padding-left: 5px;
+  }
+
+  .plan-left-content span {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 3px 10px;
+    border-radius: 4px;
+  }
+
+  .plan-left-content h2 {
+    font-size: 20px;
+    line-height: 14px;
+    margin-top: 20px;
+  }
+
+  .plan-left-content p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 18px;
+    margin-bottom: 28px;
+  }
+
+  .plan-left-content a {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 8px 16px;
+    border-radius: 3px;
+  }
+
+  .plan-right {
+    padding: 15px;
+  }
+
+  .plan-right-content span {
+    font-size: 10px;
+    line-height: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+  .plan-right-content h2 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #2e3b4e;
+    margin-top: 15px;
+  }
+
+  .plan-right-content p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    padding-right: 0;
+  }
+
+  .plan-right-content a {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 8px 16px;
+    border-radius: 3px;
+  }
+
+  /* plan section css end */
+
+  /* footer section css start */
+
+  #footer {
+    padding: 50px 0;
+  }
+
+  .footer-left-content {
+    text-align: center;
+  }
+
+  .footer-left-content h4 {
+    font-size: 12px;
+    line-height: 0px;
+    margin-bottom: 30px;
+  }
+
+  .footer-left-content p {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .footer-category {
+    margin-top: 30px;
+  }
+
+  .footer-right-content input[type="text"] {
+    padding: 5px;
+    margin: 0;
+    border: none;
+    width: 100%;
+  }
+
+  .email-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #82ca9c;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 14px;
+    border: 0;
+    padding-bottom: 8px;
+  }
+
+  /* footer section css end */
+}
+
+/* Small (col-xs) devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .banner-content {
+    padding: 130px 0;
+  }
+
+  .banner-content h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .i-phone {
+    display: none;
+  }
+
+  #new {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .new-left-content h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .new-right-content {
+    margin-top: 20px;
+  }
+
+  .work-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .work-content h2 {
+    line-height: 70px;
+    font-size: 35px;
+  }
+
+  #board {
+    padding: 50px 0;
+  }
+
+  .plan-left {
+    padding-left: 0;
+  }
+
+  .plan-right {
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 5%);
+  }
+
+  .plan-right-content p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+  }
+}
+
+/* Medium (col-sm) devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .banner-content {
+    padding: 130px 0;
+  }
+
+  .banner-content h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .i-phone {
+    display: none;
+  }
+
+  #new {
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+
+  .new-left-content h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .new-right-content {
+    margin-top: 20px;
+  }
+
+  .work-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .work-content h2 {
+    line-height: 70px;
+    font-size: 35px;
+  }
+
+  #board {
+    padding: 50px 0;
+  }
+
+  .plan-left {
+    padding-left: 0;
+  }
+
+  .plan-right {
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 0 0 100px 0 rgba(0, 0, 0, 5%);
+  }
+
+  .plan-right-content p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+  }
+}
+
+/* Large (col-md) devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .i-phone {
+    display: none;
+  }
+}
+
+/* X-Large (col-lg) devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  ...;
+}
+
+/* XX-Large (col-xl) devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  ...;
+}
